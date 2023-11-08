@@ -84,6 +84,20 @@ If you prefer to use Docker, you can install and run the project using a Docker 
 3. **Access the Project**
    - Open a web browser or the appropriate client to access the project.
 
+##  Usage and Configuration
+
+This project requires Amazon Web Services Access Key ID and Secret Access Key for interacting with AWS services. Follow these steps to configure your project to use AWS keys:
+
+1. **Obtain Your AWS Access Key ID and Secret Access Key**:
+   - Log in to the AWS Management Console.
+   - Open the IAM (Identity and Access Management) dashboard.
+   - Create a new IAM user or use an existing one.
+   - Attach the necessary policies to the user.
+   - Generate an access key for the user. Save these keys securely.
+
+2. **Configuration**:
+   - Store your AWS Access Key ID and Secret Access Key securely. Do not hardcode them directly in your code or expose them in public repositories. Instead, use environment variables or a configuration file to manage them securely.
+
 
 ## Contributing
 
