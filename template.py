@@ -1,31 +1,33 @@
 import os
 from pathlib import Path
 
-package_name = "DiamondPricePrediction"
+package="DiamondPricePrediction" 
 
 list_of_files = [
-    "github/workflows/.gitkeep",
-    f"src/{package_name}/__init__.py",
-    f"src/{package_name}/components/__init__.py",
-    f"src/{package_name}/components/Data_ingestion.py",
-    f"src/{package_name}/components/Data_transformation.py",
-    f"src/{package_name}/components/Model_trainer.py",
-    f"src/{package_name}/pipelines/__init__.py",
-    f"src/{package_name}/pipelines/Training_pipeline.py",
-    f"src/{package_name}/pipelines/Prediction_Pipeline.py",
-    f"src/{package_name}/logger.py",
-    f"src/{package_name}/exception.py",
-    f"src/{package_name}/utils/__init__.py",
-    "Notebook_Experiments/Research.ipynb",
+    ".github/workflows/main.yaml",
     "Notebook_Experiments/Data/.gitkeep",
-    "templates/index.html",
-    "static/style.css",
+    "Notebook_Experiments/Exploratoey_Data_Analysis.ipynb",
+    "Notebook_Experiments/Model_Training.ipynb",
+    f"src/{package}/__init__.py",
+    f"src/{package}/exception.py",
+    f"src/{package}/logger.py",
+    f"src/{package}/utils/__init__.py",
+    f"src/{package}/utils/utils.py",
+    f"src/{package}/components/__init__.py",
+    f"src/{package}/components/Data_ingestion.py",
+    f"src/{package}/components/Data_transformation.py",
+    f"src/{package}/components/Model_trainer.py",
+    f"src/{package}/pipeline/__init__.py",
+    f"src/{package}/pipeline/Prediction_pipeline.py",
+    f"src/{package}/pipeline/Training_pipeline.py",
+    "static/styles.css",
+    "templates/home.html",
+    ".gitignore",
     "app.py",
-    "requirements.txt",
-    "setup.py",
+    "Dockerfile",
     "README.md",
-    "Dockerfile"
-]
+    "requirements.txt",
+    "setup.py"]
 
 for filepath in list_of_files:
     filepath = Path(filepath)

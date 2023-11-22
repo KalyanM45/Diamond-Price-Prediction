@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KALYAN/Desktop/Main%20Projects/Regression/Diamond%20Price%20Prediction/mlruns/0/9beb311978264c288b0680adfb4c67a2/artifacts
+end_time: 1700629732541
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9beb311978264c288b0680adfb4c67a2
+run_name: useful-frog-479
+run_uuid: 9beb311978264c288b0680adfb4c67a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700629728811
+status: 3
+tags: []
+user_id: KALYAN
