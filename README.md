@@ -1,7 +1,7 @@
 # Diamond - Price - Prediction
 
 - [LinkedIn](https://www.linkedin.com/in/hemakalyan)
-- 
+  
 - [Medium](https://medium.com/@kalyanmurapaka274)
 
 ## About The Project
