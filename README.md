@@ -23,8 +23,9 @@ There are 10 independent variables (including id):
 
 ### Target variable: 
 - price: Price of the given Diamond.
+  
 
-Dataset Source Link : https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv
+Dataset Source Link : ```https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv```
 
 ## Built With
 
@@ -32,6 +33,10 @@ Dataset Source Link : https://www.kaggle.com/competitions/playground-series-s3e8
  - Numpy
  - Scikit-learn
  - Flask
+ - DVC
+ - MLFlow
+ - Seaborn
+ - Matplotlib
 
 
 ## Getting Started
